@@ -18,11 +18,11 @@ void setup() {
   ellipseMode(CENTER);
   rectMode(CENTER);
   imageMode(CENTER);
-  backdrop = loadImage
+  backdrop = loadImage("sky.png");
 }
 
 void draw() {
-  
+  image(backdrop, width/2, height/2);
   
   int s = second();
   int m = minute();
